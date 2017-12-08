@@ -13,23 +13,23 @@
         </center>
     </head>
     <body>
-        <p>This clock displays the current time in 24 hours. Ex. 13:25 is the same as 1:25 PM. To convert 24 hour time into 12 hour time deduct 12 hours and visa versa.</p>
+        <p>This theremin allows us to control pitch continuously, and it can also be used as a piano to play notes.</p>
         <p>The materials consist of:</p>
         <ul>
-          <li> An arduino board (any model will suffice) </li>
-          <li> Some wires for cabling </li>
-          <li> A box made out of your choice of material. We chose pexiglass as our box model </li>
-          <li> an assortment of LED lights (again any kind will work) </li>
-          <li> 200 Ohm resitors </li>
-          <li> A small micro usb cable to plug in to the computer </li>
-          <li> Some basic knowlage of C or C++ derivative </li>
+          <li> An arduino board </li>
+          <li> Wires </li>
+          <li> Processing Software </li>
+          <li> Spectra Symbol Soft Potentiometer - 500 mm </li>
+          <li> 1 Mega ohm resistor </li>
         </ul>
+        <p>The way it works is that we have the SoftPot,which is a thin and flexible strip that allows us to detect where pressure is being applied. It can slide along, and when we put pressure on it or slide on it we get a value of voltage between 0 and 1024(0 represents 0 volts, 1024 represents 5 volts) and then that value is sent to the computer, and then the computer sends it to a software called Processing, and then the Processing uses that value to output sine waves, and those sine waves have oscillators, and those oscillators have certain frequencies which determine the pitch. 
         <p>Schematic</p>
         <img src="assets/img/schematic.jpg" width=600 height=480>
         <p>Clock On: Time Displayed is 13:33</p>
         <img src="assets/img/img01.jpg" width=640 height=400>
         <p>Clock Off</p>
         <img src="assets/img/img02.jpg" width=640 height=400>
+        
     </body>
     <footer>
         <center>
